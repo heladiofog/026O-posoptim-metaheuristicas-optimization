@@ -1,0 +1,39 @@
+# --- Entornos Virtuales ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Python / Compilación ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# --- Sistema Operativo (macOS) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Sistema Operativo (Windows) ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+
+# --- Sistema Operativo (Linux) ---
+.fuse_hidden*
+.directory
+.trash/
+
+# --- Editores de código e IDEs ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
