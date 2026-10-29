@@ -1,0 +1,80 @@
+{
+  "funcion": "Ackley 3D",
+  "optimo_teorico": {
+    "x": [
+      0,
+      0,
+      0
+    ],
+    "f": 0
+  },
+  "dominio": [
+    -10.0,
+    10.0
+  ],
+  "poblacion": 30,
+  "iteraciones": 30,
+  "semilla_principal": 314159,
+  "semillas_calibracion": [
+    1101,
+    1102,
+    1103,
+    1104,
+    1105,
+    1106,
+    1107,
+    1108
+  ],
+  "semillas_validacion": [
+    2101,
+    2102,
+    2103,
+    2104,
+    2105,
+    2106,
+    2107,
+    2108,
+    2109,
+    2110,
+    2111,
+    2112,
+    2113,
+    2114,
+    2115,
+    2116,
+    2117,
+    2118,
+    2119,
+    2120
+  ],
+  "criterio_ajuste": "menor media f_final en 8 corridas (desempate: mediana y desviación)",
+  "pso_parametros": {
+    "c10": 2.0,
+    "c11": 0.5,
+    "c20": 0.5,
+    "c21": 2.0,
+    "w0": 0.8,
+    "w1": 0.3,
+    "vfrac": 0.3
+  },
+  "de_parametros": {
+    "F": 0.45,
+    "CR": 0.9
+  },
+  "pso_final": 0.0018187341940119062,
+  "pso_x": [
+    -0.0006895529508699812,
+    -0.000225062681452887,
+    0.0002944104030473491
+  ],
+  "de_final": 0.0023908137322830036,
+  "de_x": [
+    -0.00037066584640671246,
+    -0.000759231245399869,
+    0.0005841208613633381
+  ],
+  "pso_validacion_media": 0.0022118359694042857,
+  "de_validacion_media": 0.0024101594187559304,
+  "pso_victorias": 11,
+  "restricciones": "recorte de posiciones, donantes y velocidades al dominio indicado"
+}
