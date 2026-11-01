@@ -14,10 +14,16 @@ Sobre los números aleatorios:
 - Con cuál "evalúa" (comparación)
 # Roadmap para el equipo:
 ## Jueves:
-- Comparación de algoritmos y gráficas
-- Interpretación de gráficas
+- [x] Comparación de algoritmos y gráficas
+- [x] Interpretación de gráficas
 ## Viernes:
-- Diapositivas
-- Ajustes finales
+- [x] Diapositivas
+- [ ] Ajustes finales
+  - [ ] 
+  - [x] Pruebas de invertir la tendencia de los C1 y c2
 ## Martes:
 - Prueba y ensayo
+  - [ ] 2 o 3 participantes
+  - [ ] Preguntas random sobre el código (10)
+    - [ ] cambiar los parámetros de PSO, DE
+    - [ ] los índices de DE son diferentes siempre,
